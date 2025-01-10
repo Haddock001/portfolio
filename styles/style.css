@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* colors */
+.dark-01{
+    color: #181818;
+}
+
+.dark-02{
+    color: #474747;
+    font-family: "Open Sans";
+}
+
+.dark-03{
+    color: #757575;
+}
+
+.dark-03-bold{
+    color: #757575;
+    font-weight: bold;
+}
+.secondery-bg{
+    background-color: #FFF8F3;
+    margin: 0;
+    padding: 0;
+}
+/* button */
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondery{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    border-width: 1px;
+    cursor: pointer;
+}
+/* shared styles */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Open Sans;
+    color: #181818;
+}
+.text-center{
+    text-align: center;
+}
+
+/* header styles */
+
+.header{
+    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-greets{
+    font-size: 45px;
+    font-family: "Open Sans";
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    font-family: "Open Sans";
+}
+.description{
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: #757575;
+}
+.info{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #757575;
+    width: auto;
+}
+.banner-pfp{
+    width: 760px;
+    height: 787px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 120px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* skill styles */
+.skills-info{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title{
+    color: #181818;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.xp{
+    text-align: center;
+    
+}
+.xp-title{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Open Sans";
+}
+
+.xp-subtitle{
+    font-family: "Open Sans";
+    font-weight: 20px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.resume{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 120px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+#title{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+.fancy-name{
+    color: rgb(253, 110, 10)    
+}
+
+/* footer */
+#footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-coloumn{
+    width: 50%;
+}
+
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #757575;
+    font-family: "Open Sans";
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #757575;
+    font-family: "Open Sans";
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #757575;
+    font-family: "Open Sans";
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
