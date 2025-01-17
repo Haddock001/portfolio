@@ -256,3 +256,44 @@ footer textarea{
     margin-bottom: 24px;
 }
 
+/* responsive media query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skills-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-coloumn{
+        width: 100%;
+    }
+
+    .footer-input{
+        width: calc(100% - 40px);
+    }
+
+    .about{
+        padding: 20px;
+    }
+
+    .about-items{
+        flex-direction: column;
+    }
+}
+
+
